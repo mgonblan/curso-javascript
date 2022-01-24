@@ -4,7 +4,7 @@ const form  = document.getElementsByTagName('form')[0];
 
 const dni = document.getElementById('idni');
 const dniError = document.querySelector('#dni + span.error');
-const gobiernoletras = ['T','R','W','A','G','M','Y','F','P','D','X','B','N','J','Z','S','Q','V','H','L','C','K','E']
+const GOBIERNOLETRAS = "TRWAGMYFPDXBNJZSQVHLCKE"
 const tablaSustitucionNIE = {'X':0, 'Y':1, 'Z':2};
 dni.addEventListener('input', function (event) {
   // Each time the user types something, we check if the
@@ -45,7 +45,7 @@ function showError() {
     dniError.textContent = 'error en formato';
   }
   else {
-    dniError.textContent = `La letra debe ser ${calculaultletra(dni.value)}`; 
+    dniError.textContent = `La letra debe ser ${calculaultletra(dni.value.replace(dni.value.substring(0,1),tablaSustitucionNIE[dni.value.substring(0,1).toUpperCase]))}`; 
   }
 
   // Set the styling appropriately
@@ -53,7 +53,7 @@ function showError() {
 }
 function calculaultletra(numero) {
    
-   return gobiernoletras[numero.replace(numero.substring(0,1),tablaSustitucionNIE[numero.substring(0,1).toUpperCase]).map(number).reduce(function (a, b) {
+   return GOBIERNOLETRAS.charAt(numero.map(number).reduce(function (a, b) {
         return a + b;
-    }, 0)%23];
+    }, 0)%GOBIERNOLETRAS.length);
 }
