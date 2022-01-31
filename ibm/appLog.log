@@ -1,0 +1,153 @@
+Project created on Mon Jan 31 2022, 09:58:06 GMT+0100 (hora estándar de Europa central)
+
+ Info | appDB | init | Mon Jan 31 2022, 09:58:06 GMT+0100 (hora estándar de Europa central) | Base de datos de aplicación inicializada
+ Info | datasourceDB | init | Mon Jan 31 2022, 09:58:06 GMT+0100 (hora estándar de Europa central) | Se ha inicializado la base de datos del origen de datos
+ Info | dsActionsDB | init | Mon Jan 31 2022, 09:58:06 GMT+0100 (hora estándar de Europa central) | Se ha inicializado la base de datos de acciones del origen de datos
+ Info | dsAttributesDB | init | Mon Jan 31 2022, 09:58:06 GMT+0100 (hora estándar de Europa central) | Se ha inicializado la base de datos de atributos del origen de datos
+ Info | dsActionsMoreDB | init | Mon Jan 31 2022, 09:58:06 GMT+0100 (hora estándar de Europa central) | Se ha inicializado la base de datos de más de acciones del origen de datos
+ Info | settingsDB | init | Mon Jan 31 2022, 09:58:06 GMT+0100 (hora estándar de Europa central) | SettingsDB inicializada
+Success | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 09:58:06 GMT+0100 (hora estándar de Europa central) | Se han inicializado todas las bases de datos
+Success | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 09:58:06 GMT+0100 (hora estándar de Europa central) | Se han inicializado todas las bases de datos
+ Info | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 09:58:07 GMT+0100 (hora estándar de Europa central) | Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template-node-express...
+
+
+ Info | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 10:00:09 GMT+0100 (hora estándar de Europa central) | 
+added 2499 packages in 2m
+
+ Info | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 10:00:09 GMT+0100 (hora estándar de Europa central) | 
+190 packages are looking for funding
+  run `npm fund` for details
+
+ Info | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 10:00:09 GMT+0100 (hora estándar de Europa central) | 
+
+ Info | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 10:00:09 GMT+0100 (hora estándar de Europa central) | Initialized a git repository.
+
+Installing template dependencies using npm...
+
+ Error | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 10:00:13 GMT+0100 (hora estándar de Europa central) | npm
+Error
+    at file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:6391:160529
+    at f (file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:6391:159855)
+    at Object.error (file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:6391:160411)
+    at Socket.<anonymous> (file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:1157:9454)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 10:00:13 GMT+0100 (hora estándar de Europa central) |  WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: calculoimc@0.1.0
+npm WARN Found: react@17.0.2
+npm WARN node_modules/react
+npm WARN   peer react@"17.0.2" from react-dom@17.0.2
+npm WARN   node_modules/react-dom
+npm WARN     peer react-dom@"^15.0.0 || ^16.0.0 || ^17.0.0 " from react-hot-loader@4.13.0
+npm WARN     node_modules/react-hot-loader
+npm WARN     2 more (the root project, @testing-library/react)
+npm WARN   4 more (react-hot-loader, react-scripts, the root project, @testing-library/react)
+npm WARN 
+npm WARN Could not resolve dependency:
+npm WARN peer react@"17.0.2" from react-dom@17.0.2
+npm WARN node_modules/react-dom
+npm WARN   peer react-dom@"^15.0.0 || ^16.0.0 || ^17.0.0 " from react-hot-loader@4.13.0
+npm WARN   node_modules/react-hot-loader
+npm WARN   2 more (the root project, @testing-library/react)
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: calculoimc@0.1.0
+npm WARN Found: react@17.0.2
+npm WARN node_modules/react
+npm WARN   peer react@"17.0.2" from react-dom@17.0.2
+npm WARN   node_modules/react-dom
+npm WARN     peer react-dom@"^15.0.0 || ^16.0.0 || ^17.0.0 " from react-hot-loader@4.13.0
+npm WARN     node_modules/react-hot-loader
+npm WARN     2 more (the root project, @testing-library/react)
+npm WARN   4 more (react-hot-loader, react-scripts, the root project, @testing-library/react)
+npm WARN 
+npm WARN Could not resolve dependency:
+npm WARN peer react@"17.0.2" from react-dom@17.0.2
+npm WARN node_modules/react-dom
+npm WARN   peer react-dom@"^15.0.0 || ^16.0.0 || ^17.0.0 " from react-hot-loader@4.13.0
+npm WARN   node_modules/react-hot-loader
+npm WARN   2 more (the root project, @testing-library/react)
+
+Error
+    at file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:6391:160529
+    at f (file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:6391:159855)
+    at Object.error (file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:6391:160411)
+    at Socket.<anonymous> (file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:1157:9454)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 10:00:14 GMT+0100 (hora estándar de Europa central) | npm WARN ERESOLVE overriding peer dependency
+
+Error
+    at file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:6391:160529
+    at f (file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:6391:159855)
+    at Object.error (file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:6391:160411)
+    at Socket.<anonymous> (file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:1157:9454)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 10:00:14 GMT+0100 (hora estándar de Europa central) | npm WARN ERESOLVE overriding peer dependency
+
+Error
+    at file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:6391:160529
+    at f (file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:6391:159855)
+    at Object.error (file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:6391:160411)
+    at Socket.<anonymous> (file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:1157:9454)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 10:00:14 GMT+0100 (hora estándar de Europa central) | npm
+Error
+    at file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:6391:160529
+    at f (file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:6391:159855)
+    at Object.error (file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:6391:160411)
+    at Socket.<anonymous> (file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:1157:9454)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 10:00:14 GMT+0100 (hora estándar de Europa central) |  WARN deprecated fsevents@2.1.2: "Please update to latest v2.3 or v2.2"
+
+Error
+    at file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:6391:160529
+    at f (file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:6391:159855)
+    at Object.error (file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:6391:160411)
+    at Socket.<anonymous> (file:///Applications/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:1157:9454)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Info | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 10:00:19 GMT+0100 (hora estándar de Europa central) | 
+added 3 packages, removed 764 packages, and changed 6 packages in 10s
+
+100 packages are looking for funding
+  run `npm fund` for details
+
+ Info | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 10:00:19 GMT+0100 (hora estándar de Europa central) | 
+
+ Info | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 10:00:19 GMT+0100 (hora estándar de Europa central) | Removing template package using npm...
+
+
+ Info | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 10:00:28 GMT+0100 (hora estándar de Europa central) | 
+removed 1 package, and audited 1738 packages in 9s
+
+ Info | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 10:00:28 GMT+0100 (hora estándar de Europa central) | 
+100 packages are looking for funding
+  run `npm fund` for details
+
+ Info | CreateWebProject | createReactJSProject | Mon Jan 31 2022, 10:00:28 GMT+0100 (hora estándar de Europa central) | 
+145 vulnerabilities (129 moderate, 15 high, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
